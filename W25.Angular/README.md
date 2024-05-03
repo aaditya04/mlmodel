@@ -37,6 +37,13 @@ ng serve --open
 This command will compile your Angular application and open it in your default web browser. Any changes you make to your files will automatically trigger a recompilation and refresh the browser.s
 
 
+. The command to create a new component is:
+
+Copy code
+ng generate component component-name
+
+ECMAScript Features: TypeScript supports the latest ECMAScript features, allowing developers to use modern JavaScript syntax, such as arrow functions, classes, modules, and async/await, even when targeting older JavaScript environments. This enables developers to write code using modern language features while ensuring compatibility with a wide range of browsers and environments.
+
 SEO BETTER
 DEFAULT LAYOUT not all
 Opinionated Framework: Angular is a full-fledged framework, which means it provides a comprehensive solution with built-in tools and conventions for building large-scale applications. This can be beneficial for teams that prefer a structured approach and want everything integrated out-of-the-box.
