@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WAD12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div id="heading">
+            <h1>USER FORM</h1>
+        </div>
+        <div class="content">
+            <div class="inputcontent data">
+                <h3>Enter Name</h3>
+            </div>
+            <div class="inputcontent input">
+                <input type="text" class="nameinput">
+            </div>
+        </div>
+        <div class="content">
+            <div class="inputcontent data">
+                <h3>Enter Password</h3>
+            </div>
+            <div class="inputcontent input">
+                <input type="password" class="nameinput">
+            </div>
+        </div>
+        <div class="content">
+            <div class="inputcontent data">
+                <h3>Enter Address</h3>
+            </div>
+            <div class="inputcontent input">
+                <input type="text" id="emailinput">
+            </div>
+        </div>
+        <div class="content">
+            <div class="inputcontent data">
+                <h3>Select Game</h3>
+            </div>
+            <div class="inputcontent input">
+                <form action="" style="display: flex; flex-direction: column;">
+                    <div>
+                        <input type="checkbox" name="" id="hockey">
+                        <label for="hockey">Hockey</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="Football">
+                        <label for="Football">Football</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="Badminton">
+                        <label for="Badminton">Badminton</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="Cricket">
+                        <label for="Cricket">Cricket</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="Volley">
+                        <label for="Volley">Volley Ball</label>
+                    </div>
+                </form>
+                
+                <!-- <ul>
+                    <li type="checkbox">Hockey</li>
+                    <li>Football</li>
+                    <li>Badminton</li>
+                    <li>Cricket</li>
+                    <li>Volley Ball</li>
+                </ul> -->
+            </div>
+        </div>
+        <div class="content">
+            <div class="inputcontent data">
+                <h3>Gender</h3>
+            </div>
+            <div class="inputcontent input">
+                <form action="" style="display: flex; flex-direction: column;">
+                    <div>
+                        <input type="radio" name="" id="Male">
+                        <label for="Male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="Female">
+                        <label for="Female">Female</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div class="inputcontent data">
+                <h3>Select ur age</h3>
+            </div>
+            <div class="inputcontent input">
+                <label for="age"></label>
+                <select name="age" id="age" style="width: 200px;">
+                    <option value="15">Select</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                </select>
+            </div>
+        </div>
+        <div class="content inputcontent" style="width: 480px; height: 35px;">
+            <!-- <button>Choose File</button> -->
+            <label for="choosefile"></label>
+            <input type="file" name="choose File" id="choosefile">
+            <!-- <p>No File Chosen</p> -->
+        </div>
+
+        <div class="content inputcontent" style="width: 480px; height: 60px;">
+            <div>
+                <button class="lastbtn">Click Me</button>
+                <button class="lastbtn">Reset</button>
+                <button class="lastbtn">Submit Form</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

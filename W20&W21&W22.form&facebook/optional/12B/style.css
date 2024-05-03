@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo{
+    margin-left: 150px;
+    height: 70px;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+.Navbar{
+    display: flex;
+    height: 130px;
+    flex-direction: row;
+    background-color: #141E6E;
+}
+
+.formnav{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.navform{
+    display: flex;
+
+    flex-direction: row;
+}
+
+.mainpage{
+    display: flex;
+    height: 900px;
+    background-color: rgb(217, 217, 217);
+}
+
+.left{
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.contentstyle{
+    color: #141E6E; 
+    font-size: 17px;
+}
+
+.createform{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    /* background-color: pink; */
+}
+
+.inputfield{
+    font-size: 15px;
+    width: 330px;
+    height: 35px;
+    border-radius: 6px;
+}
